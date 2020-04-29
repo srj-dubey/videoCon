@@ -1,0 +1,17 @@
+
+.dashboard--sideBar--container {
+	width: clac(100% - 60px);
+	padding: 30px 30px;
+}
+
+.dashboard--sideBar--profile--wrap {
+	width: 100%;
+}
+
+.dashboard--sideBar--group--wrap {
+	width: 100%;
+}
+
+.dashboard--sideBar--contact--wrap {
+	width: 100%;
+}

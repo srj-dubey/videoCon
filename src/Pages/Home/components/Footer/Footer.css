@@ -1,0 +1,54 @@
+
+.home--footer--container {
+	background: #fff9ff;
+	padding: 80px 40px 60px 40px;
+	width: calc(100% - 80px);
+	max-width: 1200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.home--footer--menu ul {
+	display: flex;
+}
+
+.home--footer--menu ul li {
+	margin: 0 20px;
+	font-size: 16px;
+	font-weight: 500;
+	color: var( --dark);
+	transition: 200ms;
+	cursor: pointer;
+}
+
+.home--footer--menu ul li:hover {
+	color: #532bd9;
+}
+
+.home--footer--message {
+	display: flex;
+	align-items: flex-end;
+	margin-top: 60px;
+}
+
+.home--footer--message h6 {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.home--footer--message--icon {
+	margin: 0 5px 0 6px;
+	color: var( --danger);
+	font-size: 16px;
+}
+
+.home--footer--message img {
+	width: 20px;
+	margin-left: 3px;
+	margin-bottom: -3px;
+}
+
+
+

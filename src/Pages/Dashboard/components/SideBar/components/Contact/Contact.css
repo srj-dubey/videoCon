@@ -1,0 +1,74 @@
+
+.dashboard--sideBar--contact--container {
+	width: calc(100% - 40px);
+	padding: 15px 20px 20px 20px;
+	background: #fff;
+	margin-top: 20px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.03);
+	border-radius: 8px;
+}
+
+.dashboard--sideBar--contact--heading h2 {
+	font-weight: 500;
+	font-size: 16px;
+}
+
+.dashboard--sideBar--conatct--box {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin-top: 15px;
+	cursor: pointer;
+	transition: transform 100ms;
+}
+
+.dashboard--sideBar--conatct--box:hover {
+	transform: scale(1.03);
+}
+
+.dashboard--sideBar--conatct--box--head--image img {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+}
+
+.dashboard--sideBar--conatct--box--body {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-left: 15px;
+}
+
+.dashboard--sideBar--conatct--box--body--name {
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.dashboard--sideBar--conatct--box--body--time {
+	display: flex;
+	padding-top: 3px;
+}
+
+.dashboard--sideBar--conatct--box--body--icon {
+	font-weight: 400;
+	font-size: 10px;
+	color: #5a5a5a;
+	margin-top: 3px;
+}
+
+.dashboard--sideBar--conatct--box--body--time p {
+	font-weight: 400;
+	font-size: 12px;
+	color: #3b3b3b;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+

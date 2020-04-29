@@ -1,0 +1,52 @@
+
+.dashboard--mainArea--chat--video--container {
+	width: 100%;
+}
+
+.dashboard--mainArea--chat--video {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.dashboard--mainArea--chat--video--box {
+	width: calc(33% - 10px);
+	background: #fafafa;
+	height: 240px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.dashboard--mainArea--chat--video--box img {
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin-top: -10px;
+}
+
+.dashboard--mainArea--chat--video--box--name {
+	background: #fff;
+	padding: 8px 20px;
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+.dashboard--mainArea--chat--video--box--name p {
+	font-weight: 500;
+	font-size: 14px;
+	color: var( --dark);
+	margin-right: 20px;
+}
+
+.dashboard--mainArea--chat--video--box--icon {
+	font-size: 12px;
+	margin-top: 4px;
+	color: #3b3b3b;
+}

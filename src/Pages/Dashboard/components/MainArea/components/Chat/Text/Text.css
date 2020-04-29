@@ -1,0 +1,116 @@
+
+.dashboard--mainArea--chat--text--container {
+	width: 100%;
+	padding: 20px 0px 0px 15px;
+}
+
+.dashboard--mainArea--chat--text {
+	width: calc(100% - 40px);
+	padding-right: 20px;
+	max-height: 200px;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+/* =======================scroller================== */
+/* width */
+.dashboard--mainArea--chat--text::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+.dashboard--mainArea--chat--text::-webkit-scrollbar-track {
+  background:#c0c0c010;
+}
+
+/* Handle */
+.dashboard--mainArea--chat--text::-webkit-scrollbar-thumb {
+  background: #979797 !important;
+  transition: 300ms;
+}
+
+/* Handle on hover */
+.dashboard--mainArea--chat--text::-webkit-scrollbar-thumb:hover {
+  background: #555 !important;
+}
+/* =======================scroller================== */
+
+
+
+.dashboard--mainArea--chat--text--box {
+	width: 100%;
+	max-width: 400px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.dashboard--mainArea--chat--text--box--head img {
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.dashboard--mainArea--chat--text--box--body {
+	padding-left: 20px;
+}
+
+.dashboard--mainArea--chat--text--box--body h6 {
+	font-weight: 500;
+	font-size: 12px;
+	color: var( --dark);
+}
+
+.dashboard--mainArea--chat--text--box--body p {
+	margin-top: 5px;
+	font-size: 13px;
+	font-weight: 400;
+	margin-left: 2px;
+	max-width: 400px;
+	background: #fafafa;
+	padding: 4px 15px 5px 15px;
+	border-radius: 15px;
+	border-top-left-radius: 0px;
+}
+
+.dashboard--mainArea--chat--text--input {
+	width: calc(100% - 20px);
+	padding-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.dashboard--mainArea--chat--text--input input {
+	background: #fafafa;
+	width: calc(100% - 220px);
+	border: none;
+	font-size: 14px;
+	color: var( --dark);
+	padding: 15px 20px;
+}
+
+.dashboard--mainArea--chat--text--input button {
+	background: #532bd9;
+	border: none;
+	font-size: 16px;
+	color: #fafafa;
+	padding: 15px 0;
+	width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

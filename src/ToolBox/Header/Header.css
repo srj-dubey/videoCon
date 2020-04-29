@@ -1,0 +1,10 @@
+
+.main--header {
+	width: 100vw;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background: #ffffff;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.07);
+}

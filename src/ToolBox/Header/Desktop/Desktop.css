@@ -1,0 +1,48 @@
+
+.common--header--desktop--container {
+	width: calc(100% - 80px);
+	padding: 15px 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.common--header--desktop--logo h1 {
+	font-weight: 900;
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #532bd9;
+}
+
+.common--header--desktop--nav nav ul {
+	display: flex;
+	align-items: center;
+}
+
+.common--header--desktop--nav nav ul li {
+	margin-left: 10px;
+}
+
+.common--header--desktop--nav--button--primary button {
+	background: #532bd9;
+	padding: 12px 25px 12px 25px;
+	border-radius: 20px;
+	color: #fafafa;
+	border: none;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.common--header--desktop--nav--button--secondary button {
+	color: var( --dark);
+	background: none;
+	padding: 12px 20px 12px 20px;
+	border: none;
+	cursor: pointer;
+	transition: 200ms;
+	font-size: 15px;
+}
+
+.common--header--desktop--nav--button--secondary button:hover {
+	color: #532bd9;
+}	

@@ -1,0 +1,41 @@
+
+.home--banner--heroAction--container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.home--banner--heroAction {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.home--banner--heroAction input {
+	padding: 15px 20px;
+	width: calc(100% - 40px);
+	border: none;
+	margin-top: 30px;
+	font-size: 16px;
+	background: #ebebeb;
+}
+
+.home--banner--heroAction--button--primary,
+.home--banner--heroAction--button--secondary {
+	width: 100%;
+	padding: 15px 0;
+	border: none;
+	font-size: 16px;
+}
+
+.home--banner--heroAction--button--primary {
+	margin: 20px 0 10px 0;
+	background: #532bd9;
+	color: #fafafa;
+}
+
+.home--banner--heroAction--button--secondary {
+	margin: 10px 0 0 0;
+	background: #e0e0e0;
+}
